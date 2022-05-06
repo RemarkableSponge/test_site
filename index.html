@@ -1,0 +1,126 @@
+<html>
+<head>
+<style>
+body {
+    width: 660px;
+    margin: 0 auto;
+	font-size: 18px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #FFFFFF;
+}
+
+html {
+	background-color: hsl(0deg 0% 7%);
+}
+
+#container {
+	background-color: hsl(0deg 0% 10%);
+	background-image: url("https://eldenring.wiki.fextralife.com/file/Elden-Ring/elden-ring-wiki-guide-walkthrough-background-min.jpg");
+    background-position-x: center;
+	width: inherit;
+    height: 900px;
+	box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.5);
+    margin-top: 5%;
+}
+
+label {
+	font-size: 32px;
+	border: 0px;
+}
+
+.seed_header {
+    position: relative;
+	color: #FFFFFF;
+    width: fit-content;
+    height: 100px;
+    margin: 0 auto;
+    top: 25px;
+}
+
+#bingo_seed {
+	width: 7rem;
+	height: 2.5rem;
+	text-align: center;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.5);
+    color: inherit;
+	font-size: 32px;
+	border: 0px;
+    padding-left: 1rem;
+}
+
+table {
+    margin: auto;
+	width: 95%;
+	border-spacing: 12px 14px;
+}
+
+tr {
+	height: 110px;
+}
+
+td {
+	text-shadow:
+		-1px -1px 0 #000,	
+		 1px -1px 0 #000,
+		-1px  1px 0 #000,
+		 1px  1px 0 #000;
+	text-align: center;
+	font-size: 13px;
+	padding: 10px;
+	margin: 0px;
+	background-color: rgba(0, 0, 0, 0.75);
+	border-radius: 5px;
+    border: 1px solid hsl(39deg 50% 63%);
+
+	width: 110px;
+}
+
+</style>
+</head>
+<body>
+    <div id="container">
+        <div class="seed_header">
+            <input title="seed" type="number" id="bingo_seed" min="1" max="9999"></input>
+        </div>
+        <table id="bingo_table">
+            <tr>
+                <td id="bingo_card_0"></td>
+                <td id="bingo_card_1"></td>
+                <td id="bingo_card_2"></td>
+                <td id="bingo_card_3"></td>
+                <td id="bingo_card_4"></td>
+            </tr>
+            <tr>
+                <td id="bingo_card_5"></td>
+                <td id="bingo_card_6"></td>
+                <td id="bingo_card_7"></td>
+                <td id="bingo_card_8"></td>
+                <td id="bingo_card_9"></td>
+            </tr>
+            <tr>
+                <td id="bingo_card_10"></td>
+                <td id="bingo_card_11"></td>
+                <td id="bingo_card_12"></td>
+                <td id="bingo_card_13"></td>
+                <td id="bingo_card_14"></td>
+            </tr>
+            <tr>
+                <td id="bingo_card_15"></td>
+                <td id="bingo_card_16"></td>
+                <td id="bingo_card_17"></td>
+                <td id="bingo_card_18"></td>
+                <td id="bingo_card_19"></td>
+            </tr>
+            <tr>
+                <td id="bingo_card_20"></td>
+                <td id="bingo_card_21"></td>
+                <td id="bingo_card_22"></td>
+                <td id="bingo_card_23"></td>
+                <td id="bingo_card_24"></td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="eldenringbingo.js.cpp"></script>
+</body>
+</html>
